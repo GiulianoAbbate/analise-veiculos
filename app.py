@@ -7,7 +7,7 @@ st.header('Análise de Vendas de Carros')
 
 # Lendo o conjunto de dados
 # O caminho foi ajustado para apontar para a pasta 'notebooks'
-car_data = pd.read_csv('notebooks/vehicles.csv')
+car_data = pd.read_csv('vehicles.csv')
 
 # Criando uma caixa de seleção para o histograma
 build_histogram = st.checkbox('Criar um histograma de quilometragem')
